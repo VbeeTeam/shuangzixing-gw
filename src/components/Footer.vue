@@ -29,8 +29,9 @@
 				<div>
 					<img src="../assets/img/二维码.png" alt="">
 					<span>爱星保</span>
-				</div>
+				</div>    
 			</div>
+			<p>© 2020 宁波星池信息技术有限公司 <a href="http://www.beian.miit.gov.cn" target="_blank"> 浙ICP备20000702号-1 </a></p>
 
 		</div>
 	</div>
@@ -111,6 +112,11 @@
 
 			}
 			
+			p{
+				a{
+					color:#000;
+				}
+			}
 		}
 	}
 	
