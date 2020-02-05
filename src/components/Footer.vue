@@ -21,7 +21,7 @@
 				<h3>联系我们</h3>
 				<div>
 					<img src="../assets/img/电话.png" alt="">
-					<span>0580-123456</span>
+					<span>0574-88100569</span>
 				</div>
 			</div>
 			<div class="section">
