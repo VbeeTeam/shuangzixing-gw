@@ -138,7 +138,7 @@
 						width: 30%;
 						float: left;
 						position: relative;
-						margin-right: 40px;
+						margin-right: 5%;
 						&:last-of-type{
 							margin: 0;
 						}
