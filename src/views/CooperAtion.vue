@@ -15,7 +15,7 @@
 			<div class="map-right">
 				<h3>联系我们</h3>
 				<div class="map-contact">
-					<img src="../assets/img/bannner-4 (5).png" alt=""><span>商务总监:吴之竟</span>
+					<img src="../assets/img/bannner-4 (5).png" alt=""><span>商务总监 : &nbsp;吴之竟</span>
 					<img src="../assets/img/bannner-4 (6).png" alt=""><span>13857960660</span>
 				</div>
 			</div>
