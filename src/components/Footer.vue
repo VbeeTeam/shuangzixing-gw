@@ -113,6 +113,7 @@
 			}
 			
 			p{
+				text-align: center;
 				a{
 					color:#000;
 				}
