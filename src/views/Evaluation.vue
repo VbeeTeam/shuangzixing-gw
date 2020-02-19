@@ -65,7 +65,7 @@
         },
         data(){
             return {
-                detail:{},
+                detail:null,
                 lists:[],
             }
         },

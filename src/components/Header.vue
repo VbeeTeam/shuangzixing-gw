@@ -38,12 +38,12 @@
 				</div>
 			</ul>
 
-			<div class="top-search">
+			<div class="top-search" @click="toSearch()" v-if="isShow">
 				<div class="search-left">
 					<img src="../assets/img/icon-搜索.png" alt="">
-					<input type="text" placeholder="输入搜索关键字">
+					<input type="text" disabled placeholder="输入搜索关键字">
 				</div>
-				<button @click="toSearch()">搜索</button>
+				<button>搜索</button>
 			</div>
 
 		</div>
@@ -57,7 +57,8 @@
 		data() {
 			return {
 				pageType: null,
-				navImg: true
+				navImg: true,
+				isShow:true
 			}
 		},
 		computed: {
@@ -75,6 +76,13 @@
 				},
 				deep: true
 
+			},
+			$route(to){
+				if(to.path == "/search"){
+					this.isShow = false
+				}else{
+					this.isShow = true
+				}
 			}
 		},
 		created() {
@@ -195,11 +203,12 @@
 		float: left;
 		width: 25%;
 		text-align: center;
-		padding: 17px 0;
-		box-sizing: border-box;
 	}
 
 	.top-nav li a {
+		display: inline-block;
+		padding: 17px 0;
+		box-sizing: border-box;
 		color: #000;
 	}
 

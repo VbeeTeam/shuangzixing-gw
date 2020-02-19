@@ -79,6 +79,7 @@
 				allBoolean:true,
 				lists:[],
 				liIndex:0,
+				liIndex2:null,
 				type:null,
 				page:0,
 				size:10,
@@ -107,17 +108,19 @@
 				listByTypeClient(obj).then(res => {
 					this.totalNum = res.totalElements
 					if(this.totalNum > this.lists.length){
-						const oldList = this.lists
-						this.lists = oldList.concat(res.content)
-						this.lists.forEach((item) => {
+						res.content.forEach((item) => {
 							if (JSON.parse(item.articleList).length > 0) {
 								item.articleList = JSON.parse(item.articleList)
 							}
 							item.insureProductItems = item.insureProductItems.splice(0,2)
+							
 						})
 
+						const oldList = this.lists
+						this.lists = oldList.concat(res.content)
+						
+						
 					}
-					
 				})
 			},
 			//切换产品类型

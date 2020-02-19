@@ -101,8 +101,10 @@
                     this.totalNum = res.length
                     if(res.length > 0){
                         if(this.liIndex == 0){
+
                             const oldList = this.lists
                             this.lists = oldList.concat(res)
+
                         }else if(this.liIndex == 1){
                             const oldList = this.lists
                             this.lists = oldList.concat(res)
