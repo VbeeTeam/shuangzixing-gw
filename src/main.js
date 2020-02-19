@@ -7,8 +7,7 @@ import 'jquery'
 
 // import './assets/js/adaptation.js'
 import './assets/css/base.css' /*引入公共样式*/
-import './assets/css/font.css' /*引入公共样式*/
-
+import "./assets/font/font.css"
 import toastRegistry from './components/toast/index'
 
 Vue.config.productionTip = false

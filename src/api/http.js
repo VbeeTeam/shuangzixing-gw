@@ -1,15 +1,9 @@
 import axios from 'axios'; // 引入axios
 
-axios.defaults.withCreadentials = true
+import baseUrl from './constans'
 
-// 环境的切换
-if (process.env.NODE_ENV == 'development') { //开发
-	axios.defaults.baseURL = 'http://app.shuangzixinggame.com:8089/eladmin-system-2.3'
-} else if (process.env.NODE_ENV == 'debug') { //调试
-	axios.defaults.baseURL = 'http://app.xingchixinxi.com:8089/eladmin-system-2.3'
-} else if (process.env.NODE_ENV == 'production') { //线上
-	axios.defaults.baseURL = 'http://app.shuangzixinggame.com:8089/eladmin-system-2.3'
-}
+axios.defaults.withCreadentials = true
+axios.defaults.baseURL = baseUrl;
 
 axios.defaults.timeout = 5000;
 
