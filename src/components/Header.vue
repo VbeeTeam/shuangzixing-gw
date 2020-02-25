@@ -183,7 +183,7 @@
 
 	.top-nav {
 		float: left;
-		margin-left: 170px;
+		margin-left: 10%;
 		position: relative;
 		width: 40%;
 		padding-top: 22px;
@@ -227,7 +227,7 @@
 
 	.top-nav li span:first-child {
 		display: block;
-		font-size: 18px;
+		font-size: 16px;
 		font-family:PingFang-SC-Bold,PingFang-SC;
 		font-weight:600;
 		white-space: nowrap;

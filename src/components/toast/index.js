@@ -3,7 +3,7 @@ import toastComponent from './Toast.vue'
 
 const ToastConstructor = vue.extend(toastComponent)
 
-function showToast ({ text, type, duration = 2000 }) {
+function showToast ({ text, type, duration = 1000 }) {
   const toastDom = new ToastConstructor({
     el: document.createElement('div'),
     data () {

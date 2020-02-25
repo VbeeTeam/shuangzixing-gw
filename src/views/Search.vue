@@ -90,7 +90,6 @@
 
             //搜索接口
 			searchApi(){
-                this.lists = []
 				var obj = {
 					keyword: this.key,
 					type: this.liIndex == 0 ? 1 : 3,
@@ -124,7 +123,7 @@
                        this.$toast({
                             text: '没有更多了',
                             type: 'info',
-                            duration: 3000
+                            duration: 1000
                         })
                     }
                     
@@ -146,6 +145,7 @@
 
             //查看更多
             lookAll(){
+				
                 if(this.totalNum > 0){
                     this.page = this.page + 1
                     this.searchApi()
@@ -153,7 +153,7 @@
                     this.$toast({
 						text: '没有更多了',
 						type: 'info',
-						duration: 3000
+						duration: 1000
 					})
                 }
             },
@@ -177,10 +177,8 @@
 				this.$router.push({path:'/productDetail',query:{id:id,title: "搜索"}})
 			}
 
-        },
-		created() {
-			
-		},
+        }
+		
 	}
 </script>
 
@@ -196,12 +194,12 @@
             overflow: hidden;
             padding-bottom: 40px;
             .section-top{
-                width: 62%;
+                width: 68%;
                 padding: 10px 0;
                 overflow: hidden;
                 .search-left{
                 float: left;
-                width: 85%;
+                width: 80%;
                 padding: 5px 0;
                 background-color:#fff;
                 box-sizing: border-box;
@@ -211,8 +209,8 @@
                 input{
                     border:none;
                     outline: none;
-                    width: 95%;
-                    font-size:18px;
+                    width: 90%;
+                    font-size:16px;
                     font-family:PingFang-SC-Regular,PingFang-SC;
                     font-weight:400;
                     color:rgba(0,0,0,1);
@@ -220,9 +218,9 @@
                 }
             }
                 button{
-                    float: left;
+                    float: right;
                     padding: 7.5px 42px;
-                    font-size:18px;
+                    font-size:16px;
                     font-family:PingFang-SC-Medium,PingFang-SC;
                     font-weight:500;
                     color:rgba(255,255,255,1);
@@ -230,13 +228,12 @@
                     background-color: #016DF8;
                     border: none;
                     outline: none;
-                    margin-left: 20px;
                 }
             }
             
             
             .strategy-list{
-                width: 62%;
+                width: 68%;
                 margin-top: 20px;
                 text-align: center;
                 .strategy-nav{
@@ -277,7 +274,7 @@
                         }
                         .list-right{
                             position: relative;
-                            width: 80%;
+                            width: 78%;
                             height: 105px;
                             float: left;
                             padding: 10px 20px;

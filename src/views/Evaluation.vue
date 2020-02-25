@@ -193,6 +193,7 @@
                         }
                         .list-right{
                             position: relative;
+							width: 80%;
                             height: 105px;
                             float: left;
                             padding: 10px 20px;

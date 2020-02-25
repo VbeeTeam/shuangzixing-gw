@@ -154,7 +154,7 @@
 					this.$toast({
 						text: '没有更多了',
 						type: 'info',
-						duration: 3000
+						duration: 1000
 					})
 				}
 			},
