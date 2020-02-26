@@ -48,8 +48,9 @@
 		background-color: #ffffff;
 		padding: 40px 0 50px;
 		box-sizing: border-box;
+		min-width:1200px;
 		.footer-section{
-			width: 65%;
+			width: 70%;
 			margin: 0 auto;
 			h3{
 				font-size:18px;

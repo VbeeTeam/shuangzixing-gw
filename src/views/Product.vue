@@ -186,6 +186,7 @@
 		padding-top: 90px;
 		box-sizing: border-box;
 		background-color: #EFF0F5;
+		min-width: 1200px;
 		.section{
 			width: 80%;
 			margin: 40px auto 20px;
@@ -195,6 +196,7 @@
 				width: 70%;
 				
 				.strategy{
+					min-width: 700px;
 					.strategy-list{
 						background-color: #fff;
 						margin-top: 20px;
@@ -337,7 +339,7 @@
 											color:rgba(1,109,248,1);
 											line-height:20px;
 											border:1px solid rgba(1,109,248,1);
-											padding: 5px 20px;
+											padding: 5px 15px;
 											border-radius: 25px;
 											background-color: #fff;
 											a{
@@ -346,7 +348,7 @@
 											&:last-of-type{
 												background-color: #016DF8;
 												color: #fff;
-												margin-left: 20px;
+												margin-left: 5%;
 											}
 										}
 									}

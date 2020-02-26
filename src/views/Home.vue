@@ -198,6 +198,7 @@
 
 <style lang="scss" scoped>
 	.home{
+		min-width:1200px;
 		padding-top: 90px;
 		box-sizing: border-box;
 		background-color: #EFF0F5;
@@ -264,6 +265,7 @@
 				}
 				.strategy{
 					text-align: center;
+					min-width: 700px;
 					.strategy-list{
 						background-color: #fff;
 						margin-top: 20px;

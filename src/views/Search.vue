@@ -90,6 +90,7 @@
 
             //搜索接口
 			searchApi(){
+                this.lists = []
 				var obj = {
 					keyword: this.key,
 					type: this.liIndex == 0 ? 1 : 3,
@@ -145,7 +146,6 @@
 
             //查看更多
             lookAll(){
-				
                 if(this.totalNum > 0){
                     this.page = this.page + 1
                     this.searchApi()
@@ -177,8 +177,10 @@
 				this.$router.push({path:'/productDetail',query:{id:id,title: "搜索"}})
 			}
 
-        }
-		
+        },
+		created() {
+			
+		},
 	}
 </script>
 
@@ -194,7 +196,7 @@
             overflow: hidden;
             padding-bottom: 40px;
             .section-top{
-                width: 68%;
+                width: 70%;
                 padding: 10px 0;
                 overflow: hidden;
                 .search-left{
@@ -218,7 +220,7 @@
                 }
             }
                 button{
-                    float: right;
+                    float: left;
                     padding: 7.5px 42px;
                     font-size:16px;
                     font-family:PingFang-SC-Medium,PingFang-SC;
@@ -228,12 +230,13 @@
                     background-color: #016DF8;
                     border: none;
                     outline: none;
+                    margin-left: 20px;
                 }
             }
             
             
             .strategy-list{
-                width: 68%;
+                width: 70%;
                 margin-top: 20px;
                 text-align: center;
                 .strategy-nav{
@@ -274,7 +277,7 @@
                         }
                         .list-right{
                             position: relative;
-                            width: 78%;
+                            width: 80%;
                             height: 105px;
                             float: left;
                             padding: 10px 20px;

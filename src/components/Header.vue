@@ -167,6 +167,7 @@
 		top: 0;
 		z-index: 99;
 		background-color: #fff;
+		min-width:1200px;
 	}
 
 	.top-box {
