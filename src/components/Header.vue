@@ -157,15 +157,16 @@
 
 	.top .logo-img {
 		float: left;
-		width: 2rem;
+		margin-top: 0.1rem;
 	}
 	.top .logo-img img{
 		display: block;
+		width: 1.6rem;
 	}
 
 	.top-nav {
 		float: left;
-		margin-left: 1.66rem;
+		margin-left: 2rem;
 		position: relative;
 		width: 60%;
 	}
