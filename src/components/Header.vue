@@ -3,7 +3,7 @@
 		<div class="top-box">
 			
 			<div class="logo-img">
-				<img src="../assets/img/logo.png" />
+				<img src="../assets/img/logo.svg" />
 			</div>
 
 			<ul class="top-nav" :class="{'nav-show': !navImg}">
