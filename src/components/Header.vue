@@ -140,12 +140,13 @@
 <style>
 	.top {
 		width: 100%;
-		height: 80px;
+		height: 0.8rem;
 		position: fixed;
 		left: 0;
 		top: 0;
 		z-index: 99;
 		background-color: #fff;
+		min-width: 1200px;
 	}
 
 	.top-box {
@@ -156,13 +157,15 @@
 
 	.top .logo-img {
 		float: left;
-		width: 200px;
-		height: 80px;
+		width: 2rem;
+	}
+	.top .logo-img img{
+		display: block;
 	}
 
 	.top-nav {
 		float: left;
-		margin-left: 166px;
+		margin-left: 1.66rem;
 		position: relative;
 		width: 60%;
 	}
@@ -181,7 +184,7 @@
 		float: left;
 		width: 25%;
 		text-align: center;
-		padding: 17px 0;
+		padding: 0.17rem 0;
 		box-sizing: border-box;
 	}
 
@@ -204,7 +207,7 @@
 
 	.top-nav li span:first-child {
 		display: block;
-		font-size: 20px;
+		font-size: 0.2rem;
 		font-family: FZLanTingHei-R-GBK;
 		font-weight:600;
 		white-space: nowrap;
@@ -212,12 +215,12 @@
 
 	.top-nav li span:nth-child(2) {
 		display: block;
-		font-size: 10px;
+		font-size: 0.1rem;
 		font-family: FZLanTingHei-R-GBK;
 		font-weight: 400;
 		opacity: 0.6;
 		white-space: nowrap;
-		margin-top: 4px;
+		margin-top: 0.04rem;
 	}
 
 	

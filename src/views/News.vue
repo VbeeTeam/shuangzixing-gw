@@ -49,7 +49,7 @@
 		},
 		data() {
 			return {
-				
+
 			}
 		},
 		created() {
@@ -58,59 +58,64 @@
 		},
 
 		methods: {
-		
+
 		}
 	}
 </script>
 
 
 <style lang="scss" scoped>
-	.news{
-		padding-top: 81px;
+	.news {
+		padding-top: 0.8rem;
 		box-sizing: border-box;
 		background-color: #F7FBFF;
-		.section{
+
+		.section {
 			width: 50%;
-			margin: 60px auto 100px;
-			.section-list{
+			margin: 0.6rem auto 0;
+			.section-list {
 				position: relative;
-				li{
+
+				li {
 					overflow: hidden;
 				}
-			
-				.list-top{
-					img{
-						width: 32px;
+
+				.list-top {
+					img {
+						width: 0.32rem;
 						vertical-align: middle;
 					}
-					span{
-						font-size:14px;
-						font-family:PingFang-SC-Regular,PingFang-SC;
-						font-weight:400;
-						color:rgba(1,109,248,1);
-						margin-left: 20px;
+
+					span {
+						font-size: 0.14rem;
+						font-family: PingFang-SC-Regular, PingFang-SC;
+						font-weight: 400;
+						color: rgba(1, 109, 248, 1);
+						margin-left: 0.2rem;
+						vertical-align: middle;
 					}
 				}
-				.list-section{
-					
-					img{
+
+				.list-section {
+
+					img {
 						float: left;
-						margin-left: 175px;
+						width: 4rem;
+						margin-left: 1.75rem;
 					}
 				}
 			}
 
-			.section-list:after{
-				content:"";
-				width:1px;
-				height:90%;
-			background-color: #016DF8;
-			position:absolute;
-			z-index:1;
-			left:16px;
-			top:28px;
-        }
+			.section-list:after {
+				content: "";
+				width: 0.01rem;
+				height: 87%;
+				background-color: #016DF8;
+				position: absolute;
+				z-index: 1;
+				left: 0.16rem;
+				top: 0.55rem;
+			}
 		}
 	}
-
 </style>

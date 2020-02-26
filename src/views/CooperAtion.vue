@@ -40,60 +40,63 @@
 
 <style lang="scss" scoped>
 	.cooperation{
-		padding-top: 81px;
+		padding-top: 0.8rem;
 		box-sizing: border-box;
 		background-color: #F7FBFF;
-
 	}
 
 	.cooperation-img {
 		width: 70%;
 		overflow: hidden;
-		margin: 54px auto 0;
+		margin: 0.54rem auto 0;
 		padding-left: 20%;
 	}
 
 	.cooperation-img img {
 		float: left;
-		margin-right: 60px;
+		width: 4rem;
+		margin-right: 0.6rem;
 	}
 
 	.cooperation-map {
 		width: 70%;
 		overflow: hidden;
-		margin: 90px auto;
+		margin: 0.9rem auto 0;
 		padding-left: 20%;
+		padding-bottom: 0.4rem;
 	}
 
 	.cooperation-map .img {
 		float: left;
+		width: 9rem;
 	}
 	
 	.map-right {
 		float: left;
 		h3{
-			font-size:14px;
+			font-size:0.14rem;
 			font-family:PingFang-SC-Regular,PingFang-SC;
 			font-weight:400;
 			color:rgba(0,0,0,1);
-			line-height:20px;
-			margin: 90px 0 22px;
+			line-height:0.2rem;
+			margin: 0.9rem 0 0.22rem;
 		}
 		.map-contact{
 			img{
-				width: 16px;
-				margin-right: 10px;
+				width: 0.16rem;
+				margin-right: 0.1rem;
 				vertical-align: middle;
 				&:last-of-type{
-					margin-left: 20px;
+					margin-left: 0.2rem;
 				}
 			}
 			span{
-				font-size:14px;
+				font-size:0.14rem;
 				font-family:PingFang-SC-Regular,PingFang-SC;
 				font-weight:400;
 				color:rgba(0,0,0,1);
-				line-height:20px;
+				line-height:0.2rem;
+				vertical-align: middle;
 			}
 		}
 	}
