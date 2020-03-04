@@ -9,7 +9,7 @@
 		<div class="section">
 			<div class="section-left">
 				<div class="evaluation">
-					<img src="../assets/img/标题-1.png" alt="">
+					<img class="title" src="../assets/img/标题-1.png" alt="">
 					<ul class="evaluation-img">
 						<li v-for="(item,index4) in evaluationList" :key="index4" 
 						:style="{background:'url('+ item.picture +') center top',backgroundSize:'cover'}"
@@ -25,7 +25,7 @@
 					</ul>
 				</div>
 				<div class="strategy">
-					<img src="../assets/img/标题-2.png" alt="">
+					<img class="title" src="../assets/img/标题-2.png" alt="">
 					<div class="strategy-list">
 						<div class="strategy-nav">
 							<span v-for="(item,index1) in navList" :key="index1"
@@ -198,13 +198,12 @@
 
 <style lang="scss" scoped>
 	.home{
-		min-width:1200px;
-		padding-top: 90px;
+		padding-top: 0.9rem;
 		box-sizing: border-box;
 		background-color: #EFF0F5;
 		.section{
 			width: 80%;
-			margin: 40px auto 20px;
+			margin: 0.4rem auto 0.2rem;
 			overflow: hidden;
 			.section-left{
 				float: left;
@@ -212,52 +211,52 @@
 				.evaluation{
 					text-align: center;
 					.evaluation-img{
-						margin: 21px 0 40px;
+						margin: 0.21rem 0 0.4rem;
 						overflow: hidden;
 						li{
 							position: relative;
-							width: 242px;
-							height: 142px;
+							width: 2.42rem;
+							height: 1.42rem;
 							float: left;
 							text-align: left;
-							padding: 10px;
+							padding: 0.1rem;
 							box-sizing: border-box;
-							margin-left: 31px;
+							margin-left: 0.31rem;
 							&:first-of-type{
 								margin-left: 0;
 							}
 							h3{
-								font-size:18px;
+								font-size:0.18rem;
 								font-family:PingFang-SC-Bold,PingFang-SC;
 								font-weight:bold;
 								color:rgba(255,255,255,1);
-								line-height:25px;
+								line-height:0.25rem;
 								text-shadow:0px 3px 5px rgba(0,0,0,0.3);
-								margin-bottom: 4px;
+								margin-bottom: 0.04rem;
 							}
 							p{
-								font-size:14px;
+								font-size:0.14rem;
 								font-family:PingFang-SC-Medium,PingFang-SC;
 								font-weight:500;
 								color:rgba(255,255,255,1);
-								line-height:20px;
+								line-height:0.2rem;
 							}
 							div{
 								position: absolute;
-								right: 10px;
-								bottom: 10px;
+								right: 0.1rem;
+								bottom: 0.1rem;
 								img{
-									width: 21px;
-									height: 21px;
+									width: 0.21rem;
+									height: 0.21rem;
 									vertical-align: middle;
-									margin-right: 5px;
+									margin-right: 0.05rem;
 								}
 								span{
-									font-size:14px;
+									font-size:0.14rem;
 									font-family:DIN-Medium,DIN;
 									font-weight:500;
 									color:rgba(255,255,255,1);
-									line-height:17px;
+									line-height:0.17rem;
 								}
 							}
 						}
@@ -265,20 +264,19 @@
 				}
 				.strategy{
 					text-align: center;
-					min-width: 700px;
 					.strategy-list{
 						background-color: #fff;
-						margin-top: 20px;
+						margin-top: 0.2rem;
 						.strategy-nav{
-							padding: 5px 0;
+							padding: 0.05rem 0;
 							span{
 								display: inline-block;
 								width: 16.5%;
-								font-size:14px;
+								font-size:0.16rem;
 								font-family:PingFang-SC-Regular,PingFang-SC;
 								font-weight:400;
 								color:rgba(102,102,102,1);
-								line-height:20px;
+								line-height:0.2rem;
 								border-right: 1px solid #DCDFE6;
 								cursor: pointer;
 								&:last-of-type{
@@ -294,46 +292,46 @@
 							overflow: hidden;
 							text-align: left;
 							li{
-								padding: 10px;
+								padding: 0.1rem;
 								overflow: hidden;
 								.img{
-									width: 135px;
-									height: 105px;
+									width: 1.35rem;
+									height: 1.05rem;
 									float: left;
 								}
 								.list-right{
 									position: relative;
 									width: 80%;
-									height: 105px;
+									height: 1.05rem;
 									float: left;
-									padding: 10px 20px;
+									padding: 0.1rem 0.2rem;
 									box-sizing: border-box;
 									h3{
-										font-size:14px;
+										font-size:0.14rem;
 										font-family:PingFang-SC-Medium,PingFang-SC;
 										font-weight:500;
 										color:rgba(51,51,51,1);
-										line-height:20px;
+										line-height:0.2rem;
 									}
 									.list-icon{
 										position: absolute;
-										left: 20px;
-										bottom: 10px;
+										left: 0.2rem;
+										bottom: 0.1rem;
 										div{
 											float: left;
-											margin-right: 20px;
+											margin-right: 0.2rem;
 											img{
-												width: 15px;
-												height: 15px;
-												margin-right: 2px;
+												width: 0.15rem;
+												height: 0.15rem;
+												margin-right: 0.02rem;
 												vertical-align: middle;
 											}
 											span{
-												font-size:12px;
+												font-size:0.12rem;
 												font-family:DIN-Medium,DIN;
 												font-weight:500;
 												color:#ccc;
-												line-height:15px;
+												line-height:0.15rem;
 											}
 										}
 									}
@@ -347,12 +345,12 @@
 
 				.lookAll{
 					width: 100%;
-					font-size:14px;
+					font-size:0.14rem;
 					font-family:PingFang-SC-Medium,PingFang-SC;
 					font-weight:500;
 					color:rgba(255,255,255,1);
-					line-height:20px;
-					padding: 20px 0;
+					line-height:0.2rem;
+					padding: 0.2rem 0;
 					box-sizing: border-box;
 					background-color: #97C3FC;
 				}

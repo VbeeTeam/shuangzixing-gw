@@ -59,18 +59,17 @@
 
 <style lang="scss" scoped>
 	.aboutWe{
-		padding-top: 90px;
+		padding-top: 0.9rem;
 		box-sizing: border-box;
 		background-color: #EFF0F5;
-
 		.section{
 			overflow: hidden;
 			.section-information{
 				width: 65%;
-				margin: 40px auto 0;
+				margin: 0.4rem auto 0;
 				.information{
 					overflow: hidden;
-					margin-bottom: 80px;
+					margin-bottom: 0.8rem;
 					img{
 						float: left;
 						width: 50%;
@@ -78,30 +77,30 @@
 					div{
 						float: left;
 						width: 50%;
-						padding-left: 80px;
+						padding-left: 0.8rem;
 						box-sizing: border-box;
 						h3{
-							font-size:30px;
+							font-size:0.3rem;
 							font-family:PingFang-SC-Regular,PingFang-SC;
 							font-weight:400;
 							color:rgba(0,0,0,1);
-							line-height:42px;
-							padding:80px 0 40px;
+							line-height:0.42rem;
+							padding:0.4rem 0;
 							box-sizing: border-box;
 						}
 						p{
-							font-size:20px;
+							font-size:0.2rem;
 							font-family:PingFang-SC-Regular,PingFang-SC;
 							font-weight:400;
 							color:rgba(0,0,0,1);
-							line-height:28px;
+							line-height:0.28rem;
 						}
 					}
 
 					&:nth-of-type(2n){
 						div{
 							text-align: right;
-							padding: 0 80px 0 0;
+							padding: 0 0.8rem 0 0;
 						}
 					}
 				}

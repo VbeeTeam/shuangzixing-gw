@@ -4,8 +4,12 @@ import router from './router'
 import store from './store'
 
 import 'jquery'
+import 'bootstrap'
 
-// import './assets/js/adaptation.js'
+import './assets/js/adaptation.js'
+import 'bootstrap/dist/js/bootstrap.min.js'
+import 'bootstrap/dist/css/bootstrap.css'
+
 import './assets/css/base.css' /*引入公共样式*/
 import "./assets/font/font.css"
 import toastRegistry from './components/toast/index'

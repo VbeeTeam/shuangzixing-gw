@@ -161,13 +161,13 @@
 <style lang="scss">
 	.top {
 		width: 100%;
-		height: 80px;
+		height: 0.8rem;
 		position: fixed;
 		left: 0;
 		top: 0;
 		z-index: 99;
 		background-color: #fff;
-		min-width:1200px;
+		min-width:1024px;
 	}
 
 	.top-box {
@@ -178,8 +178,8 @@
 
 	.top .logo-img {
 		float: left;
-		width: 200px;
-		height: 80px;
+		width: 2rem;
+		height: 0.8rem;
 	}
 
 	.top-nav {
@@ -187,7 +187,7 @@
 		margin-left: 10%;
 		position: relative;
 		width: 40%;
-		padding-top: 22px;
+		padding-top: 0.24rem;
 	}
 
 	.nav-border {
@@ -195,7 +195,7 @@
 		left: 2%;
 		bottom: 0;
 		width: 14%;
-		height: 4px;
+		height: 0.04rem;
 		background-color: #016DF8;
 		margin-left: 3%;
 	}
@@ -207,8 +207,8 @@
 	}
 
 	.top-nav li a {
-		display: inline-block;
-		padding: 17px 0;
+		display: block;
+		padding: 0.17rem 0;
 		box-sizing: border-box;
 		color: #000;
 	}
@@ -228,44 +228,43 @@
 
 	.top-nav li span:first-child {
 		display: block;
-		font-size: 16px;
+		font-size: 0.16rem;
 		font-family:PingFang-SC-Bold,PingFang-SC;
 		font-weight:600;
 		white-space: nowrap;
 	}
 
 	.top-search{
-		padding-top: 20px;
+		padding-top: 0.2rem;
 		float: right;
 		.search-left{
 			float: left;
 			background-color: #F2F6FC;
-			margin-right: 10px;
+			margin-right: 0.1rem;
 			img{
-				width: 30px;
-				height: 30px;
-				vertical-align: middle;
+				width: 0.3rem;
+				height: 0.3rem;
 			}
 			input{
-				font-size:14px;
+				font-size:0.14rem;
 				font-family:PingFang-SC-Regular,PingFang-SC;
 				font-weight:400;
 				color:rgba(153,153,153,1);
-				line-height:20px;
 				border: none;
 				outline: none;
 				background-color: #F2F6FC;
+				vertical-align: middle;
 			}
 		}
 		button{
 			float: left;
-			font-size:14px;
+			font-size:0.14rem;
 			font-family:PingFang-SC-Regular,PingFang-SC;
 			font-weight:400;
 			color:rgba(255,255,255,1);
-			line-height:20px;
+			line-height:0.2rem;
 			background-color: #016DF8;
-			padding: 5px 16px;
+			padding: 0.05rem 0.16rem;
 			outline: none;
 			border: none
 		}

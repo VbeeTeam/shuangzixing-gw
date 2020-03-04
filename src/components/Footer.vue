@@ -29,7 +29,7 @@
 				<div>
 					<img src="../assets/img/二维码.png" alt="">
 					<span>知星保</span>
-				</div>   
+				</div>    
 			</div>
 			<p>© 2020 宁波双子星信息科技有限公司 <a href="http://www.beian.miit.gov.cn" target="_blank"> 浙ICP备19038864号-1 </a></p>
 
@@ -46,47 +46,46 @@
 		width: 100%;
 		overflow: hidden;
 		background-color: #ffffff;
-		padding: 40px 0 50px;
+		padding: 0.3rem 0 0.5rem;
 		box-sizing: border-box;
-		min-width:1200px;
+		
 		.footer-section{
 			width: 70%;
-			overflow: hidden;
 			margin: 0 auto;
 			h3{
-				font-size:18px;
+				font-size:0.18rem;
 				font-family:PingFang-SC-Bold,PingFang-SC;
 				font-weight:bold;
 				color:rgba(0,0,0,1);
-				line-height:25px;
+				line-height:0.25rem;
 			}
 			.section{
 				float: left;
 				width: 25%;
 				div{
-					padding-top: 24px;
+					padding-top: 0.24rem;
 					a{
 						display: inline-block;
-						font-size:16px;
+						font-size:0.16rem;
 						font-family:PingFang-SC-Medium,PingFang-SC;
 						font-weight:500;
 						color:rgba(153,153,153,1);
-						line-height:22px;
-						margin-right: 40px;
+						line-height:0.22rem;
+						margin-right: 0.4rem;
 					}
 					span{
-						font-size:16px;
+						font-size:0.16rem;
 						font-family:PingFang-SC-Medium,PingFang-SC;
 						font-weight:500;
 						color:rgba(0,0,0,1);
-						line-height:22px;
+						line-height:0.22rem;
 					}
 				}
 				&:nth-of-type(2){
 					div{
 						img{
-							margin-right: 40px;
-							width: 32px;
+							margin-right: 0.4rem;
+							width: 0.32rem;
 						}
 					}
 				}
@@ -94,10 +93,12 @@
 					div{
 						img{
 							vertical-align: middle;
-							width: 24px;
-							margin-right: 10px;
+							width: 0.24rem;
+							margin-right: 0.1rem;
 						}
-						
+						span{
+							vertical-align: middle;
+						}
 					}
 				}
 				&:nth-of-type(4){
@@ -105,8 +106,8 @@
 					div{
 						img{
 							
-							margin: 0 10px 0 60px;
-							width: 100px;
+							margin: 0 0.1rem 0 0.6rem;
+							width: 1rem;
 							vertical-align: middle;	
 						}
 						
@@ -116,9 +117,13 @@
 			}
 			
 			p{
+				font-size: 0.16rem;
 				text-align: center;
 				a{
 					color:#000;
+				}
+				a:hover{
+					border-bottom: 1px solid #000;
 				}
 			}
 		}

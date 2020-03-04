@@ -89,8 +89,7 @@
         methods: {
 
             //搜索接口
-			searchApi(){
-                this.lists = []
+			search(){
 				var obj = {
 					keyword: this.key,
 					type: this.liIndex == 0 ? 1 : 3,
@@ -99,12 +98,11 @@
 				}
 				searchApi(obj).then((res) => {
                     this.totalNum = res.length
+					
                     if(res.length > 0){
                         if(this.liIndex == 0){
-
                             const oldList = this.lists
                             this.lists = oldList.concat(res)
-
                         }else if(this.liIndex == 1){
                             const oldList = this.lists
                             this.lists = oldList.concat(res)
@@ -119,7 +117,6 @@
                             })
                         }
                         
-
                     }else if(res.length == 0){
                        this.$toast({
                             text: '没有更多了',
@@ -132,7 +129,7 @@
             },
             //搜索
             toSearch(){
-                this.searchApi()
+                this.search()
             },
             //切换搜索类型
             changeNav(index){
@@ -146,9 +143,10 @@
 
             //查看更多
             lookAll(){
+				
                 if(this.totalNum > 0){
                     this.page = this.page + 1
-                    this.searchApi()
+                    this.search()
                 }else{
                     this.$toast({
 						text: '没有更多了',
@@ -186,7 +184,7 @@
 
 <style lang="scss" scoped>
 	.search{
-		padding-top: 90px;
+		padding-top: 0.9rem;
 		box-sizing: border-box;
 		background-color: #EFF0F5;
 
@@ -194,15 +192,16 @@
 			width: 80%;
             margin: 0 auto;
             overflow: hidden;
-            padding-bottom: 40px;
+            padding-bottom: 0.4rem;
             .section-top{
-                width: 70%;
-                padding: 10px 0;
+                width: 75%;
+                padding: 0.1rem 0;
                 overflow: hidden;
                 .search-left{
                 float: left;
                 width: 80%;
-                padding: 5px 0;
+				height: 0.4rem;
+				line-height: 0.4rem;
                 background-color:#fff;
                 box-sizing: border-box;
                 img{
@@ -212,45 +211,46 @@
                     border:none;
                     outline: none;
                     width: 90%;
-                    font-size:16px;
+                    font-size:0.16rem;
                     font-family:PingFang-SC-Regular,PingFang-SC;
                     font-weight:400;
                     color:rgba(0,0,0,1);
-                    line-height:25px;
+                    
                 }
             }
                 button{
                     float: left;
-                    padding: 7.5px 42px;
-                    font-size:16px;
+					height: 0.4rem;
+                    padding: 0 0.42rem;
+                    font-size:0.16rem;
                     font-family:PingFang-SC-Medium,PingFang-SC;
                     font-weight:500;
                     color:rgba(255,255,255,1);
-                    line-height:25px;
+                    line-height:0.25rem;
                     background-color: #016DF8;
                     border: none;
                     outline: none;
-                    margin-left: 20px;
+                    margin-left: 0.2rem;
                 }
             }
             
             
             .strategy-list{
                 width: 70%;
-                margin-top: 20px;
+                margin-top: 0.2rem;
                 text-align: center;
                 .strategy-nav{
-                    padding: 5px 0;
-                    margin-bottom: 30px;
+                    padding: 0.05rem 0;
+                    margin-bottom: 0.3rem;
                     background-color: #fff;
                     span{
                         display: inline-block;
                         width: 24%;
-                        font-size:14px;
+                        font-size:0.14rem;
                         font-family:PingFang-SC-Regular,PingFang-SC;
                         font-weight:400;
                         color:rgba(102,102,102,1);
-                        line-height:20px;
+                        line-height:0.2rem;
                         border-right: 1px solid #DCDFE6;
                         cursor: pointer;
                         &:last-of-type{
@@ -265,49 +265,49 @@
                 .list{
                     overflow: hidden;
                     text-align: left;
-                    min-height: 300px;
+                    min-height: 3rem;
                     background-color: #fff; 
                     li{
-                        padding: 10px;
+                        padding: 0.1rem;
                         overflow: hidden;
                         .img{
-                            width: 135px;
-                            height: 105px;
+                            width: 1.35rem;
+                            height: 1.05rem;
                             float: left;
                         }
                         .list-right{
                             position: relative;
                             width: 80%;
-                            height: 105px;
+                            height: 1.05rem;
                             float: left;
-                            padding: 10px 20px;
+                            padding: 0.1rem 0.2rem;
                             box-sizing: border-box;
                             h3{
-                                font-size:14px;
+                                font-size:0.14rem;
                                 font-family:PingFang-SC-Medium,PingFang-SC;
                                 font-weight:500;
                                 color:rgba(51,51,51,1);
-                                line-height:20px;
+                                line-height:0.2rem;
                             }
                             .list-icon{
                                 position: absolute;
-                                left: 20px;
-                                bottom: 10px;
+                                left: 0.2rem;
+                                bottom: 0.1rem;
                                 div{
                                     float: left;
-                                    margin-right: 20px;
+                                    margin-right: 0.2rem;
                                     img{
-                                        width: 15px;
-                                        height: 15px;
-                                        margin-right: 2px;
+                                        width: 0.15rem;
+                                        height: 0.15rem;
+                                        margin-right: 0.02rem;
                                         vertical-align: middle;
                                     }
                                     span{
-                                        font-size:12px;
+                                        font-size:0.12rem;
                                         font-family:DIN-Medium,DIN;
                                         font-weight:500;
                                         color:#ccc;
-                                        line-height:15px;
+                                        line-height:0.15rem;
                                     }
                                 }
                             }
@@ -318,10 +318,10 @@
                 .list-product{
                     text-align: left;
                     overflow: hidden;
-                    min-height: 300px;
+                    min-height: 3rem;
                     background-color: #fff;
                     li{
-                        padding: 20px 10px;
+                        padding: 0.2rem 0.1rem;
                         overflow: hidden;
                         border-bottom: 1px dashed #016DF8;
                         &:last-of-type{
@@ -330,33 +330,33 @@
                         .list-left{ 
                             float: left;
                             width: 70%;
-                            height: 220px;
-                            padding: 20px;
+                            height: 2rem;
+                            padding: 0.2rem;
                             box-sizing: border-box;
                             h3{
-                                font-size:18px;
+                                font-size:0.18rem;
                                 font-family:PingFang-SC-Bold,PingFang-SC;
                                 font-weight:bold;
                                 color:rgba(0,0,0,0.85);
-                                line-height:25px;
+                                line-height:0.25rem;
                             }
                             p{
-                                font-size:16px;
+                                font-size:0.16rem;
                                 font-family:PingFang-SC-Medium,PingFang-SC;
                                 font-weight:500;
                                 color:rgba(102,102,102,1);
-                                line-height:22px;
-                                margin: 20px 0 50px;
+                                line-height:0.22rem;
+                                margin: 0.2rem 0 0.5rem;
                             }
                             ul{
                                 li{
                                     width: 60%;
                                     padding: 0;
-                                    font-size:14px;
+                                    font-size:0.14rem;
                                     font-family:PingFang-SC-Medium,PingFang-SC;
                                     font-weight:500;
                                     color:rgba(102,102,102,1);
-                                    line-height:20px;
+                                    line-height:0.2rem;
                                     border: none;
                                     list-style: inside;
                                     overflow: hidden;
@@ -371,34 +371,34 @@
                         .list-right{
                             float: left;
                             width: 30%;
-                            height: 200px;
+                            height: 2rem;
                             position: relative;
                             p{
-                                font-size:18px;
+                                font-size:0.18rem;
                                 font-family:PingFang-SC-Bold,PingFang-SC;
                                 font-weight:bold;
                                 color:rgba(254,160,58,1);
-                                line-height:25px;
+                                line-height:0.25rem;
                                 text-align: right;
-                                padding-right: 10px;
+                                padding-right: 0.1rem;
                                 b{
-                                    font-size: 30px;
+                                    font-size: 0.3rem;
                                     
                                 }
                             }
                             .btn{
                                 position: absolute;
-                                right: 20px;
-                                bottom: 10px;
+                                right: 0.2rem;
+                                bottom: 0.1rem;
                                 button{
-                                    font-size:14px;
+                                    font-size:0.14rem;
                                     font-family:PingFang-SC-Bold,PingFang-SC;
                                     font-weight:bold;
                                     color:rgba(1,109,248,1);
-                                    line-height:20px;
+                                    line-height:0.2rem;
                                     border:1px solid rgba(1,109,248,1);
-                                    padding: 5px 20px;
-                                    border-radius: 25px;
+                                    padding: 0.05rem 0.2rem;
+                                    border-radius: 0.25rem;
                                     background-color: #fff;
                                     a{
                                         color:rgba(1,109,248,1);
@@ -406,7 +406,7 @@
                                     &:last-of-type{
                                         background-color: #016DF8;
                                         color: #fff;
-                                        margin-left: 20px;
+                                        margin-left: 0.2rem;
                                     }
                                 }
                             }
@@ -418,12 +418,12 @@
 
                 .lookAll{
 					width: 100%;
-					font-size:14px;
+					font-size:0.14rem;
 					font-family:PingFang-SC-Medium,PingFang-SC;
 					font-weight:500;
 					color:rgba(255,255,255,1);
-					line-height:20px;
-					padding: 20px 0;
+					line-height:0.2rem;
+					padding: 0.2rem 0;
 					box-sizing: border-box;
 					background-color: #97C3FC;
 				}

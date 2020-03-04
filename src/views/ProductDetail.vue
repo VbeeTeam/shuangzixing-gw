@@ -271,88 +271,88 @@
 
 <style lang="scss" scoped>
 	.productDetail{
-		padding-top: 90px;
+		padding-top: 0.9rem;
 		box-sizing: border-box;
 		background-color: #EFF0F5;
 
         .route{
             width: 80%;
             margin: 0 auto;
-            padding: 20px;
+            padding: 0.2rem;
             overflow: hidden;
             span{
-                font-size:18px;
+                font-size:0.18rem;
                 font-family:PingFang-SC-Medium,PingFang-SC;
                 font-weight:500;
                 color:rgba(0,0,0,1);
             }
             img{
-                width: 25px;
-                height: 25px;
+                width: 0.25rem;
+                height: 0.25rem;
                 vertical-align: middle;
-                margin-bottom: 5px;
+                margin-bottom: 0.05rem;
             }
         }
         .banner{
             width: 100%;
-            height: 200px;
+            height: 2rem;
             background: url(../assets/img/banner-4.png) center top;
             .banner-title{
                 width: 75%;
                 margin: 0 auto;
-                padding-top: 90px;
+                padding-top: 0.9rem;
                 .title-left{
                     float: left;
                     .banner-top{
                         overflow: hidden;
                         h3{
                             float: left;
-                            font-size:28px;
+                            font-size:0.28rem;
                             font-family:PingFang-SC-Bold,PingFang-SC;
                             font-weight:bold;
                             color:rgba(255,255,255,1);
-                            line-height:40px;
-                            margin-right: 60px;
+                            line-height:0.4rem;
+                            margin-right: 0.6rem;
                         }
                         span{
                             float: left;
-                            font-size:14px;
+                            font-size:0.14rem;
                             font-family:PingFang-SC-Bold,PingFang-SC;
                             font-weight:bold;
                             color:rgba(255,255,255,1);
-                            line-height:20px;
-                            padding: 3px 9px;
+                            line-height:0.2rem;
+                            padding: 0.03rem 0.1rem;
                             background-color: #FEDA4F;
-                            margin-right: 20px;
-                            margin-top: 10px;
+                            margin-right: 0.2rem;
+                            margin-top: 0.1rem;
                             &:nth-of-type(2){
                                 background-color: #00D6FB;
                             }
                         }
                     }
                     p{
-                        margin-top: 20px;
+                        margin-top: 0.2rem;
                         span{
-                            font-size:20px;
+                            font-size:0.2rem;
                             font-family:PingFang-SC-Medium,PingFang-SC;
                             font-weight:500;
                             color:rgba(255,255,255,1);
-                            line-height:28px;
+                            line-height:0.28rem;
                         }
                     }
 
                 }
                 button{
                     float: right;
-                    font-size:20px;
-                    margin-top: 30px;
+                    font-size:0.2rem;
+                    margin-top: 0.3rem;
                     font-family:PingFang-SC-Bold,PingFang-SC;
                     font-weight:bold;
                     color:rgba(255,255,255,1);
-                    line-height:28px;
-                    padding: 10px 50px;
+                    line-height:0.28rem;
+                    padding: 0.1rem 0.5rem;
                     background-color: #FEA03A;
-                    border-radius: 5px;
+                    border-radius: 0.05rem;
                     border: none;
                     outline: none;
                 }
@@ -365,62 +365,62 @@
 			width: 80%;
             margin: 0 auto;
             overflow: hidden;
-            padding: 20px 0;
+            padding: 0.2rem 0;
             .section-left{
 				float: left;
 				width: 48%;
                 .left-top{
                     background-color: #fff;
                     box-shadow:0px 10px 30px -12px rgba(0,0,0,0.2);
-                    margin-bottom: 20px;
+                    margin-bottom: 0.2rem;
                     .topChange{
                         border-bottom: 1px solid #E5F0FE;
                         span{
                             display: inline-block;
                             text-align: center;
-                            width: 10%;
+                            width: 12%;
                             margin-left: 18%;
-                            padding: 15px 0 8px;
+                            padding: 0.15rem 0 0.08rem;
                             box-sizing: border-box;
-                            font-size:14px;
+                            font-size:0.14rem;
                             font-family:PingFang-SC-Medium,PingFang-SC;
                             font-weight:500;
                             color:rgba(0,0,0,1);
-                            line-height:20px;
+                            line-height:0.2rem;
                         }
                         .active{
                             color: #016DF8;
-                            border-bottom: 6px solid #016DF8;
+                            border-bottom: 0.06rem solid #016DF8;
                         }
                     }
                     .topSection{
                         .ul {
-                            padding: 10px;
+                            padding: 0.1rem;
                             box-sizing: border-box;
                             li {
-                                margin-bottom: 2px;
+                                margin-bottom: 0.02rem;
                                 
                                 b {
                                     display: table-cell;
                                     word-wrap: break-word;
-                                    width: 200px;
+                                    width: 2rem;
                                     text-align: center;
-                                    padding: 20px 0;
+                                    padding: 0.2rem 0;
                                     box-sizing: border-box;
                                     background-color: #A1BBFF;
-                                    font-size: 14px;
+                                    font-size: 0.14rem;
                                     font-weight: normal;
                                     color: rgba(0, 0, 0, 1);
                                     vertical-align: middle;
                                 }
 
                                 span {
-                                    width: 510px;
+                                    width: 5.1rem;
                                     display: table-cell;
                                     word-wrap: break-word;
-                                    padding: 10px;
+                                    padding: 0.1rem;
                                     box-sizing: border-box;
-                                    font-size: 14;
+                                    font-size: 0.14rem;
                                     font-weight: normal;
                                     color: rgba(0, 0, 0, 1);
                                     vertical-align: middle;
@@ -439,10 +439,10 @@
                         .ulNo{
 						li{
 							b{
-								width: 50px;
+								width: 0.4rem;
 							}
 							span{
-								width: 660px;
+								width: 6.6rem;
 							}
 						}
 					}
@@ -451,13 +451,13 @@
                 }
                 .left-bottom{
                     .bottomSection{
-                        padding: 20px;
+                        padding: 0.2rem;
                          a{
-                            font-size:14px;
+                            font-size:0.14rem;
                             font-family:PingFang-SC-Medium,PingFang-SC;
                             font-weight:500;
                             color:rgba(0,0,0,1);
-                            line-height:20px;
+                            line-height:0.2rem;
                         }
                        
                         .articleList{
@@ -477,16 +477,16 @@
                 
                 .right-top{
                     border-bottom: 1px solid #E5F0FE;
-                    padding: 12px 20px;
+                    padding: 0.12rem 0.2rem;
                     img{
-                        width: 26px;
-                        height: 26px;
+                        width: 0.26rem;
+                        height: 0.26rem;
                         vertical-align: middle;
-                        margin-right: 4px;
+                        margin-right: 0.04rem;
                     }
                     span{
                         display: inline-block;
-                        font-size:16px;
+                        font-size:0.16rem;
                         font-family:PingFang-SC-Bold,PingFang-SC;
                         font-weight:bold;
                         color:rgba(1,109,248,1);
@@ -495,23 +495,23 @@
                 }
 
                 .right-content{
-                    padding: 10px;
+                    padding: 0.1rem;
                     .content{
                         border:1px solid rgba(229,240,254,1);
-                        margin-bottom: 20px;
-                        border-radius:4px;
+                        margin-bottom: 0.2rem;
+                        border-radius:0.04rem;
                     }
                     .content-top{
-                        padding: 10px;
+                        padding: 0.1rem;
 
                         img{
-                            width: 24px;
-                            height: 24px;
+                            width: 0.24rem;
+                            height: 0.24rem;
                             vertical-align: middle;
-                            margin-right: 4px;
+                            margin-right: 0.04rem;
                         }
                         span{
-                            font-size:14px;
+                            font-size:0.14rem;
                             font-family:PingFang-SC-Bold,PingFang-SC;
                             font-weight:bold;
                             color:#FEA03A;
@@ -520,23 +520,22 @@
                     }
                     .advantage-section {
                         overflow: hidden;
-                        padding: 12px 20px;
+                        padding: 0.12rem 0.2rem;
 						span {
                             float: left;
 							margin-right: 0.5rem;
 							vertical-align: middle;
-							font-size: 14px;
+							font-size: 0.14rem;
 							font-weight: normal;
 							color: rgba(254, 160, 58, 1);
-
 						}
 
 						p {
                             float: left;
-							font-size: 14px;
+							font-size: 0.14rem;
 							font-weight: normal;
 							color: rgba(0, 0, 0, 1);
-							line-height: 17px;
+							line-height: 0.16rem;
 							white-space: pre-wrap;
 						}
 

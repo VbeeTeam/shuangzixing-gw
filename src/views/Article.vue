@@ -15,9 +15,9 @@
 
                     <div v-html="detail.formatContent"></div>
                 </div>
-                <div class="content-right">
+                <!-- <div class="content-right">
                     <img src="../assets/img/扫描二维码.png" alt="">
-                </div>
+                </div> -->
             </div>
 
         </div>
@@ -70,7 +70,7 @@
 
 <style lang="scss" scoped>
 	.article{
-		padding-top: 90px;
+		padding-top: 0.9rem;
 		box-sizing: border-box;
 		background-color: #EFF0F5;
 
@@ -78,20 +78,20 @@
 			width: 80%;
             margin: 0 auto;
             overflow: hidden;
-            padding-bottom: 40px;
+            padding-bottom: 0.4rem;
             .route{
-                padding: 20px;
+                padding: 0.2rem;
                 span{
-                    font-size:18px;
+                    font-size:0.18rem;
                     font-family:PingFang-SC-Medium,PingFang-SC;
                     font-weight:500;
                     color:rgba(0,0,0,1);
                 }
                 img{
-                    width: 25px;
-                    height: 25px;
+                    width: 0.25rem;
+                    height: 0.25rem;
                     vertical-align: middle;
-                    margin-bottom: 5px;
+                    margin-bottom: 0.05rem;
                 }
             }
             .content{
@@ -100,24 +100,24 @@
                     float: left;
                     width: 75%;
                     background-color: #fff;
-                    padding: 20px;
+                    padding: 0.2rem;
                     box-sizing: border-box;
                     h3{
-                        font-size:30px;
+                        font-size:0.3rem;
                         font-family:PingFang-SC-Medium,PingFang-SC;
                         font-weight:500;
                         color:rgba(51,51,51,1);
-                        line-height:42px;
+                        line-height:0.42rem;
                     }
                     p{
-                        font-size:14px;
+                        font-size:0.14rem;
                         font-family:PingFang-SC-Medium,PingFang-SC;
                         font-weight:500;
                         color:rgba(51,51,51,1);
-                        line-height:20px;
-                        padding: 20px 0;
+                        line-height:0.2rem;
+                        padding: 0.2rem 0;
                         span{
-                          margin-left: 20px;
+                          margin-left: 0.2rem;
                         }
                     }
                 }
@@ -126,7 +126,6 @@
                     width: 25%;
                 }
             }
-            
 
 		}
 	}

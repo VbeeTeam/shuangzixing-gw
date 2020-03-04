@@ -183,36 +183,34 @@
 
 <style lang="scss" scoped>
 	.product{
-		padding-top: 90px;
+		padding-top: 0.9rem;
 		box-sizing: border-box;
 		background-color: #EFF0F5;
-		min-width: 1200px;
 		.section{
 			width: 80%;
-			margin: 40px auto 20px;
+			margin: 0.4rem auto 0.2rem;
 			overflow: hidden;
 			.section-left{
 				float: left;
 				width: 70%;
 				
 				.strategy{
-					min-width: 700px;
 					.strategy-list{
 						background-color: #fff;
-						margin-top: 20px;
+						margin-top: 0.2rem;
 						.strategy-nav{
-							padding: 5px 0;
+							padding: 0.05rem 0;
 							position: relative;
 							.nav-top{
 								span{
 								display: inline-block;
 								width: 19.5%;
-								font-size:14px;
+								font-size:0.14rem;
 								text-align: center;
 								font-family:PingFang-SC-Regular,PingFang-SC;
 								font-weight:400;
 								color:rgba(102,102,102,1);
-								line-height:20px;
+								line-height:0.2rem;
 								border-right: 1px solid #DCDFE6;
 								cursor: pointer;
 									&:last-of-type{
@@ -220,10 +218,10 @@
 									}
 								}
 								img{
-									width: 14px;
-									height: 14px;
+									width: 0.14rem;
+									height: 0.14rem;
 									vertical-align: middle;
-									margin-left: 5px;
+									margin-left: 0.05rem;
 								}
 							}
 							
@@ -236,23 +234,23 @@
 								transition: 0.4s;
 								z-index: 1;
 								background-color: #fff;
-								padding: 20px 0;
+								padding: 0.2rem 0;
 								box-shadow:0px 12px 10px 0px rgba(0,0,0,0.3);
 								span{
 									display: inline-block;
-									font-size:14px;
+									font-size:0.14rem;
 									text-align: center;
 									font-family:PingFang-SC-Regular,PingFang-SC;
 									font-weight:400;
 									color:rgba(102,102,102,1);
-									line-height:20px;
-									margin-left: 40px;
+									line-height:0.2rem;
+									margin-left: 0.4rem;
 									cursor: pointer;
 								}
 							}
 							.allNav{
 								visibility: visible;
-								top:30px;
+								top:0.3rem;
 							}
 
 							.active{
@@ -263,7 +261,7 @@
 						.list{
 							overflow: hidden;
 							li{
-								padding: 10px;
+								padding: 0.1rem;
 								overflow: hidden;
 								border-bottom: 1px dashed #016DF8;
 								&:last-of-type{
@@ -272,33 +270,33 @@
 								.list-left{ 
 									float: left;
 									width: 70%;
-									height: 220px;
-									padding: 20px;
+									height: 2rem;
+									padding: 0.2rem;
 									box-sizing: border-box;
 									h3{
-										font-size:18px;
+										font-size:0.18rem;
 										font-family:PingFang-SC-Bold,PingFang-SC;
 										font-weight:bold;
 										color:rgba(0,0,0,0.85);
-										line-height:25px;
+										line-height:0.25rem;
 									}
 									p{
-										font-size:16px;
+										font-size:0.16rem;
 										font-family:PingFang-SC-Medium,PingFang-SC;
 										font-weight:500;
 										color:rgba(102,102,102,1);
-										line-height:22px;
-										margin: 20px 0 50px;
+										line-height:0.22rem;
+										margin: 0.2rem 0 0.5rem;
 									}
 									ul{
 										li{
 											width: 60%;
 											padding: 0;
-											font-size:14px;
+											font-size:0.14rem;
 											font-family:PingFang-SC-Medium,PingFang-SC;
 											font-weight:500;
 											color:rgba(102,102,102,1);
-											line-height:20px;
+											line-height:0.2rem;
 											border: none;
 											list-style: inside;
 											overflow: hidden;
@@ -313,39 +311,38 @@
 								.list-right{
 									float: left;
 									width: 30%;
-									height: 200px;
+									height: 2rem;
 									position: relative;
 									p{
-										font-size:18px;
+										font-size:0.18rem;
 										font-family:PingFang-SC-Bold,PingFang-SC;
 										font-weight:bold;
 										color:rgba(254,160,58,1);
-										line-height:25px;
+										line-height:0.25rem;
 										text-align: right;
-										padding-right: 10px;
+										padding-right: 0.1rem;
 										b{
-											font-size: 30px;
-											
+											font-size: 0.3rem;
 										}
 									}
 									.btn{
 										width: 90%;
 										position: absolute;
-										right: 20px;
-										bottom: 10px;
+										right: 0.2rem;
+										bottom: 0.1rem;
 										button{
 											display: inline-block;
-											width: 88px;
-											font-size:14px;
+											width: 0.88rem;
+											font-size:0.14rem;
 											font-family:PingFang-SC-Bold,PingFang-SC;
 											font-weight:bold;
 											color:rgba(1,109,248,1);
-											line-height:20px;
+											line-height:0.2rem;
 											border:1px solid rgba(1,109,248,1);
-											padding: 5px 15px;
-											border-radius: 25px;
+											padding: 0.05rem 0.15rem;
+											border-radius: 0.25rem;
 											background-color: #fff;
-											margin-left: 40px;
+											margin-left: 0.4rem;
 											a{
 												color:rgba(1,109,248,1);
 											}
@@ -364,13 +361,13 @@
 				}
 				.lookAll{
 					width: 100%;
-					font-size:14px;
+					font-size:0.14rem;
 					text-align: center;
 					font-family:PingFang-SC-Medium,PingFang-SC;
 					font-weight:500;
 					color:rgba(255,255,255,1);
-					line-height:20px;
-					padding: 20px 0;
+					line-height:0.2rem;
+					padding: 0.2rem 0;
 					box-sizing: border-box;
 					background-color: #97C3FC;
 				}
@@ -378,7 +375,7 @@
 			.section-right{
 				float: right;
 				width: 23%;
-				margin-top: 60px;
+				margin-top: 0.6rem;
 				img{
 					display: block;
 				}
