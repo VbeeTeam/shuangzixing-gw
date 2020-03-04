@@ -29,9 +29,9 @@
 				<div>
 					<img src="../assets/img/二维码.png" alt="">
 					<span>知星保</span>
-				</div>    
+				</div>   
 			</div>
-			<p>© 2020 宁波星池信息技术有限公司 <a href="http://www.beian.miit.gov.cn" target="_blank"> 浙ICP备20000702号-1 </a></p>
+			<p>© 2020 宁波双子星信息科技有限公司 <a href="http://www.beian.miit.gov.cn" target="_blank"> 浙ICP备19038864号-1 </a></p>
 
 		</div>
 	</div>
@@ -51,6 +51,7 @@
 		min-width:1200px;
 		.footer-section{
 			width: 70%;
+			overflow: hidden;
 			margin: 0 auto;
 			h3{
 				font-size:18px;
@@ -100,6 +101,7 @@
 					}
 				}
 				&:nth-of-type(4){
+					visibility: hidden;
 					div{
 						img{
 							

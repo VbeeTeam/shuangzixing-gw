@@ -52,7 +52,7 @@
 			</div>
 			<div class="section-right">
 				<img src="../assets/img/编组 8备份.png" alt="">
-				<img src="../assets/img/扫描二维码.png" alt="">
+				<!-- <img src="../assets/img/扫描二维码.png" alt=""> -->
 			</div>
 		</div>
 
@@ -329,10 +329,13 @@
 										}
 									}
 									.btn{
+										width: 90%;
 										position: absolute;
 										right: 20px;
 										bottom: 10px;
 										button{
+											display: inline-block;
+											width: 88px;
 											font-size:14px;
 											font-family:PingFang-SC-Bold,PingFang-SC;
 											font-weight:bold;
@@ -342,13 +345,13 @@
 											padding: 5px 15px;
 											border-radius: 25px;
 											background-color: #fff;
+											margin-left: 40px;
 											a{
 												color:rgba(1,109,248,1);
 											}
 											&:last-of-type{
 												background-color: #016DF8;
 												color: #fff;
-												margin-left: 5%;
 											}
 										}
 									}

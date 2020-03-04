@@ -58,7 +58,7 @@
 			</div>
 			<div class="section-right">
 				<img src="../assets/img/编组 8备份.png" alt="">
-				<img src="../assets/img/扫描二维码.png" alt="">
+				<!-- <img src="../assets/img/扫描二维码.png" alt=""> -->
 			</div>
 		</div>
 
