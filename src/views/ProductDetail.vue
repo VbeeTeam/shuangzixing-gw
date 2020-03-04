@@ -14,7 +14,7 @@
                     </div>
                     <p><span v-for="(item,i) in detail.insureProductTags" :key = "i">{{item.name}} | </span></p>
                 </div>
-                <button @click="toHref()">立即投保</button>
+                <!-- <button @click="toHref()">立即投保</button> -->
             </div>
             
         </div>
