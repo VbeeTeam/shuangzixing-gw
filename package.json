@@ -10,7 +10,7 @@
     "prod": "vue-cli-service build --mode prod"
   },
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "bootstrap": "^3.4.1",
     "core-js": "^3.3.2",
     "jquery": "^3.4.1",
